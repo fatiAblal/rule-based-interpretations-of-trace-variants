@@ -60,9 +60,9 @@ You can replace `nameOfTheDataset.xes` in the notebook with any of the provided 
 
 3. **Variants Analysis**: unique sequences of activities are identified as trace variants. Each trace is assigned a Variant ID.
 
-4. **Data Encoding**: activities and transitions are transformed into binary features (one-hot-like encoding):
+4. **Data Encoding**: activities and transitions are transformed into binary features:
 
-    - 1 if the activity/transition occurs in the trace
+    - n if the activity/transition occurs n times in the trace
 
     - 0 otherwise
 
